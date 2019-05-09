@@ -1,1 +1,41 @@
-/* All styles for your header Components live here */
+.imageThumbnail {
+  background-color: #b00000;
+  display: flex;
+  height: 55px;
+  border-radius: 25px;
+  justify-content: center;
+
+}
+
+.logo {
+  width: 75%;
+  height: auto;
+  padding-top: 6px;
+}
+
+.headerTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 53%;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.socialText {
+  margin: 0;
+}
+
+.headerContainer {
+  padding-top: 0px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
