@@ -1,0 +1,15 @@
+.footer {
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+}
+
+.item {
+  padding-right: 14%;
+}
+
+.grouped {
+  display: flex;
+
+}
