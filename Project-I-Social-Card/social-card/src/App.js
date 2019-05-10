@@ -7,7 +7,7 @@ import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 
 const App = () => {
   return (
-    <a href="https://reactjs.org/" className="master">
+    <div className="master">
       <div className="column1">
         <ImageThumbnail />
       </div>
@@ -16,7 +16,7 @@ const App = () => {
         <CardContainer />
         <Footer />
       </div>
-    </a>
+    </div>
   );
 };
 
