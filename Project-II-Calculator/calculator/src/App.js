@@ -4,7 +4,7 @@ import UserInputArea from './components/ButtonComponents/UserInputArea';
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <UserInputArea />
     </div>
   );

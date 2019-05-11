@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css';
+import './UserInputArea.css';
 import ClearButton from './ClearButton';
 import NumberButton from './NumberButton';
 import ActionButton from './ActionButton';
