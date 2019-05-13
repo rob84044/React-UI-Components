@@ -1,12 +1,8 @@
 import React from 'react';
 import './Button.css';
 
-const Clear = () => {
-  return (
-    <div className="btn">
-      <h2>clear</h2>
-    </div>
-  );
+const ClearButton = props => {
+  return <button className={props.style}>{props.text}</button>;
 };
 
-export default Clear;
+export default ClearButton;

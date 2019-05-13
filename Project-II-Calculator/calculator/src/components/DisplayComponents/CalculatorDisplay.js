@@ -1,12 +1,8 @@
 import React from 'react';
 import './Display.css';
 
-const Display = () => {
-  return (
-    <div className="display">
-      <h1>0</h1>
-    </div>
-  );
+const Display = props => {
+  return <div className={props.style}>{props.text}</div>;
 };
 
 export default Display;
