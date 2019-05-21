@@ -1,0 +1,26 @@
+.footer {
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+}
+
+.item {
+  padding-right: 10%;
+}
+
+.grouped {
+  display: flex;
+
+}
+
+.number {
+  vertical-align: middle;
+  padding-left: 8px;
+  padding-top: 6px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+i {
+  color: rgba(0, 0, 0, 0.4);
+}

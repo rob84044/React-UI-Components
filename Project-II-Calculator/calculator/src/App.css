@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  background-color: #001f3f;
+  margin: 0 auto;
+  margin-top: 8%;
+  background-image: url(../src/calc.png);
+}
